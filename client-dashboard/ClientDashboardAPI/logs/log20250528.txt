@@ -1,0 +1,1057 @@
+2025-05-28 02:05:52.621 -05:00 [DBG] Connection id "0HNCTG81G65UF" accepted.
+2025-05-28 02:05:52.627 -05:00 [DBG] Connection id "0HNCTG81G65UF" started.
+2025-05-28 02:05:52.627 -05:00 [DBG] Connection id "0HNCTG81G65UG" accepted.
+2025-05-28 02:05:52.628 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-05-28 02:05:52.630 -05:00 [DBG] Connection id "0HNCTG81G65UG" started.
+2025-05-28 02:05:52.634 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:05:52.636 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:05:52.638 -05:00 [DBG] No candidates found for the request path '/'
+2025-05-28 02:05:52.640 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:05:52.643 -05:00 [DBG] Connection id "0HNCTG81G65UF" completed keep alive response.
+2025-05-28 02:05:52.644 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 15.8823ms
+2025-05-28 02:05:52.647 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-05-28 02:05:58.391 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/clients - null null
+2025-05-28 02:05:58.393 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:05:58.394 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:05:58.395 -05:00 [DBG] No candidates found for the request path '/api/clients'
+2025-05-28 02:05:58.396 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:05:58.397 -05:00 [DBG] Connection id "0HNCTG81G65UF" completed keep alive response.
+2025-05-28 02:05:58.399 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/clients - 404 0 null 7.7306ms
+2025-05-28 02:05:58.404 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/clients, Response status code: 404
+2025-05-28 02:06:02.427 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/clients/ping - null null
+2025-05-28 02:06:02.429 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:02.430 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:06:02.431 -05:00 [DBG] No candidates found for the request path '/api/clients/ping'
+2025-05-28 02:06:02.433 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:06:02.434 -05:00 [DBG] Connection id "0HNCTG81G65UF" completed keep alive response.
+2025-05-28 02:06:02.435 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/clients/ping - 404 0 null 8.6773ms
+2025-05-28 02:06:02.439 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/clients/ping, Response status code: 404
+2025-05-28 02:06:16.081 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - null null
+2025-05-28 02:06:16.084 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:16.086 -05:00 [DBG] Connection id "0HNCTG81G65UF" completed keep alive response.
+2025-05-28 02:06:16.087 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - 301 0 null 5.54ms
+2025-05-28 02:06:16.093 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:06:16.096 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:16.097 -05:00 [DBG] Connection id "0HNCTG81G65UF" completed keep alive response.
+2025-05-28 02:06:16.098 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 4.9447ms
+2025-05-28 02:06:16.130 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - null null
+2025-05-28 02:06:16.133 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:16.136 -05:00 [VRB] Range header's value is empty.
+2025-05-28 02:06:16.140 -05:00 [DBG] Connection id "0HNCTG81G65UH" accepted.
+2025-05-28 02:06:16.141 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - null null
+2025-05-28 02:06:16.142 -05:00 [DBG] Connection id "0HNCTG81G65UH" started.
+2025-05-28 02:06:16.144 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-28 02:06:16.145 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:16.147 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-28 02:06:16.149 -05:00 [DBG] Connection id "0HNCTG81G65UF" completed keep alive response.
+2025-05-28 02:06:16.149 -05:00 [VRB] Range header's value is empty.
+2025-05-28 02:06:16.152 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:16.153 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - 200 142933 text/css 22.5856ms
+2025-05-28 02:06:16.157 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-28 02:06:16.160 -05:00 [DBG] Connection id "0HNCTG81G65UG" completed keep alive response.
+2025-05-28 02:06:16.160 -05:00 [VRB] Range header's value is empty.
+2025-05-28 02:06:16.161 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - 200 986342 text/javascript 19.7962ms
+2025-05-28 02:06:16.162 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-28 02:06:16.166 -05:00 [DBG] Connection id "0HNCTG81G65UH" completed keep alive response.
+2025-05-28 02:06:16.167 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - 200 311804 text/javascript 20.3107ms
+2025-05-28 02:06:16.252 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:06:16.254 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:16.255 -05:00 [DBG] Connection id "0HNCTG81G65UH" completed keep alive response.
+2025-05-28 02:06:16.256 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.0445ms
+2025-05-28 02:06:16.289 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2025-05-28 02:06:16.292 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:16.293 -05:00 [VRB] Range header's value is empty.
+2025-05-28 02:06:16.294 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-28 02:06:16.295 -05:00 [DBG] Connection id "0HNCTG81G65UH" completed keep alive response.
+2025-05-28 02:06:16.297 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 7.6689ms
+2025-05-28 02:06:57.148 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:06:57.150 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:57.151 -05:00 [DBG] Connection id "0HNCTG81G65UH" completed keep alive response.
+2025-05-28 02:06:57.153 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 4.8919ms
+2025-05-28 02:06:57.213 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:06:57.216 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:06:57.217 -05:00 [DBG] Connection id "0HNCTG81G65UH" completed keep alive response.
+2025-05-28 02:06:57.218 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.2963ms
+2025-05-28 02:08:26.529 -05:00 [DBG] Connection id "0HNCTG81G65UG" disconnecting.
+2025-05-28 02:08:26.529 -05:00 [DBG] Connection id "0HNCTG81G65UF" disconnecting.
+2025-05-28 02:08:26.530 -05:00 [DBG] Connection id "0HNCTG81G65UG" stopped.
+2025-05-28 02:08:26.531 -05:00 [DBG] Connection id "0HNCTG81G65UF" stopped.
+2025-05-28 02:08:26.532 -05:00 [DBG] Connection id "0HNCTG81G65UG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:08:26.532 -05:00 [DBG] Connection id "0HNCTG81G65UF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:09:07.898 -05:00 [DBG] Connection id "0HNCTG81G65UH" disconnecting.
+2025-05-28 02:09:07.901 -05:00 [DBG] Connection id "0HNCTG81G65UH" stopped.
+2025-05-28 02:09:07.902 -05:00 [DBG] Connection id "0HNCTG81G65UH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:14:47.711 -05:00 [DBG] Connection id "0HNCTG81G65UI" accepted.
+2025-05-28 02:14:47.712 -05:00 [DBG] Connection id "0HNCTG81G65UI" started.
+2025-05-28 02:14:47.716 -05:00 [DBG] Connection id "0HNCTG81G65UI" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-05-28 02:14:47.726 -05:00 [DBG] Connection id "0HNCTG81G65UI" disconnecting.
+2025-05-28 02:14:47.726 -05:00 [DBG] Connection id "0HNCTG81G65UI" received FIN.
+2025-05-28 02:14:47.727 -05:00 [DBG] Connection id "0HNCTG81G65UI" stopped.
+2025-05-28 02:14:47.727 -05:00 [DBG] Connection id "0HNCTG81G65UJ" accepted.
+2025-05-28 02:14:47.728 -05:00 [DBG] Connection id "0HNCTG81G65UI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:14:47.729 -05:00 [DBG] Connection id "0HNCTG81G65UJ" started.
+2025-05-28 02:14:47.731 -05:00 [DBG] Connection id "0HNCTG81G65UJ" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-05-28 02:14:47.733 -05:00 [DBG] Connection id "0HNCTG81G65UJ" disconnecting.
+2025-05-28 02:14:47.733 -05:00 [DBG] Connection id "0HNCTG81G65UJ" received FIN.
+2025-05-28 02:14:47.734 -05:00 [DBG] Connection id "0HNCTG81G65UJ" stopped.
+2025-05-28 02:14:47.736 -05:00 [DBG] Connection id "0HNCTG81G65UJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:14:51.704 -05:00 [DBG] Connection id "0HNCTG81G65UK" accepted.
+2025-05-28 02:14:51.706 -05:00 [DBG] Connection id "0HNCTG81G65UK" started.
+2025-05-28 02:14:51.708 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 02:14:51.711 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:14:51.712 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:14:51.713 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 02:14:51.714 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:14:51.714 -05:00 [DBG] Connection id "0HNCTG81G65UK" completed keep alive response.
+2025-05-28 02:14:51.715 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 7.3274ms
+2025-05-28 02:14:51.717 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 02:16:31.738 -05:00 [DBG] Connection id "0HNCTG81G65UK" received FIN.
+2025-05-28 02:16:31.740 -05:00 [DBG] Connection id "0HNCTG81G65UK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:16:31.742 -05:00 [DBG] Connection id "0HNCTG81G65UK" disconnecting.
+2025-05-28 02:16:31.744 -05:00 [DBG] Connection id "0HNCTG81G65UK" stopped.
+2025-05-28 02:17:34.964 -05:00 [DBG] Connection id "0HNCTG81G65UL" accepted.
+2025-05-28 02:17:34.966 -05:00 [DBG] Connection id "0HNCTG81G65UL" started.
+2025-05-28 02:17:34.966 -05:00 [DBG] Connection id "0HNCTG81G65UM" accepted.
+2025-05-28 02:17:34.967 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-05-28 02:17:34.968 -05:00 [DBG] Connection id "0HNCTG81G65UM" started.
+2025-05-28 02:17:34.970 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:17:34.972 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:17:34.973 -05:00 [DBG] No candidates found for the request path '/'
+2025-05-28 02:17:34.974 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:17:34.975 -05:00 [DBG] Connection id "0HNCTG81G65UL" completed keep alive response.
+2025-05-28 02:17:34.976 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 8.7663ms
+2025-05-28 02:17:34.979 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-05-28 02:17:37.848 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:17:37.851 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:17:37.852 -05:00 [DBG] Connection id "0HNCTG81G65UL" completed keep alive response.
+2025-05-28 02:17:37.853 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 4.8086ms
+2025-05-28 02:17:37.902 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:17:37.904 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:17:37.906 -05:00 [DBG] Connection id "0HNCTG81G65UL" completed keep alive response.
+2025-05-28 02:17:37.906 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.3606ms
+2025-05-28 02:17:38.649 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:17:38.651 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:17:38.652 -05:00 [DBG] Connection id "0HNCTG81G65UL" completed keep alive response.
+2025-05-28 02:17:38.653 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 3.717ms
+2025-05-28 02:17:38.705 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:17:38.707 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:17:38.709 -05:00 [DBG] Connection id "0HNCTG81G65UL" completed keep alive response.
+2025-05-28 02:17:38.709 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.2257ms
+2025-05-28 02:17:38.968 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:17:38.972 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:17:38.973 -05:00 [DBG] Connection id "0HNCTG81G65UL" completed keep alive response.
+2025-05-28 02:17:38.975 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 6.3913ms
+2025-05-28 02:17:39.015 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:17:39.017 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:17:39.019 -05:00 [DBG] Connection id "0HNCTG81G65UL" completed keep alive response.
+2025-05-28 02:17:39.020 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.58ms
+2025-05-28 02:18:35.886 -05:00 [DBG] Connection id "0HNCTG81G65UL" received FIN.
+2025-05-28 02:18:35.886 -05:00 [DBG] Connection id "0HNCTG81G65UM" received FIN.
+2025-05-28 02:18:35.889 -05:00 [DBG] Connection id "0HNCTG81G65UL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:18:35.891 -05:00 [DBG] Connection id "0HNCTG81G65UM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:18:35.892 -05:00 [DBG] Connection id "0HNCTG81G65UL" disconnecting.
+2025-05-28 02:18:35.893 -05:00 [DBG] Connection id "0HNCTG81G65UM" disconnecting.
+2025-05-28 02:18:35.894 -05:00 [DBG] Connection id "0HNCTG81G65UL" stopped.
+2025-05-28 02:18:35.895 -05:00 [DBG] Connection id "0HNCTG81G65UM" stopped.
+2025-05-28 02:19:02.038 -05:00 [DBG] Connection id "0HNCTG81G65UN" received FIN.
+2025-05-28 02:19:02.040 -05:00 [DBG] Connection id "0HNCTG81G65UN" accepted.
+2025-05-28 02:19:02.042 -05:00 [DBG] Connection id "0HNCTG81G65UN" started.
+2025-05-28 02:19:02.043 -05:00 [DBG] Connection id "0HNCTG81G65UN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:19:02.045 -05:00 [DBG] Connection id "0HNCTG81G65UN" disconnecting.
+2025-05-28 02:19:02.046 -05:00 [DBG] Connection id "0HNCTG81G65UN" stopped.
+2025-05-28 02:20:27.829 -05:00 [DBG] Connection id "0HNCTG81G65UO" received FIN.
+2025-05-28 02:20:27.830 -05:00 [DBG] Connection id "0HNCTG81G65UO" accepted.
+2025-05-28 02:20:27.831 -05:00 [DBG] Connection id "0HNCTG81G65UO" started.
+2025-05-28 02:20:27.833 -05:00 [DBG] Connection id "0HNCTG81G65UO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:20:27.835 -05:00 [DBG] Connection id "0HNCTG81G65UO" disconnecting.
+2025-05-28 02:20:27.836 -05:00 [DBG] Connection id "0HNCTG81G65UO" stopped.
+2025-05-28 02:23:34.217 -05:00 [DBG] Connection id "0HNCTG81G65UP" received FIN.
+2025-05-28 02:23:34.218 -05:00 [DBG] Connection id "0HNCTG81G65UP" accepted.
+2025-05-28 02:23:34.220 -05:00 [DBG] Connection id "0HNCTG81G65UP" started.
+2025-05-28 02:23:34.221 -05:00 [DBG] Connection id "0HNCTG81G65UP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:23:34.223 -05:00 [DBG] Connection id "0HNCTG81G65UP" disconnecting.
+2025-05-28 02:23:34.225 -05:00 [DBG] Connection id "0HNCTG81G65UP" stopped.
+2025-05-28 02:23:59.086 -05:00 [DBG] Connection id "0HNCTG81G65UQ" accepted.
+2025-05-28 02:23:59.087 -05:00 [DBG] Connection id "0HNCTG81G65UQ" started.
+2025-05-28 02:23:59.088 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 02:23:59.089 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:23:59.090 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:23:59.091 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 02:23:59.092 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:23:59.093 -05:00 [DBG] Connection id "0HNCTG81G65UQ" completed keep alive response.
+2025-05-28 02:23:59.093 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 5.6355ms
+2025-05-28 02:23:59.096 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 02:24:39.608 -05:00 [DBG] Connection id "0HNCTG81G65UR" accepted.
+2025-05-28 02:24:39.609 -05:00 [DBG] Connection id "0HNCTG81G65UR" started.
+2025-05-28 02:24:39.610 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:24:39.611 -05:00 [DBG] Connection id "0HNCTG81G65US" accepted.
+2025-05-28 02:24:39.614 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:24:39.615 -05:00 [DBG] Connection id "0HNCTG81G65US" started.
+2025-05-28 02:24:39.616 -05:00 [DBG] Connection id "0HNCTG81G65UR" completed keep alive response.
+2025-05-28 02:24:39.618 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 7.9507ms
+2025-05-28 02:24:39.669 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:24:39.671 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:24:39.673 -05:00 [DBG] Connection id "0HNCTG81G65UR" completed keep alive response.
+2025-05-28 02:24:39.674 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.7854ms
+2025-05-28 02:25:39.120 -05:00 [DBG] Connection id "0HNCTG81G65UQ" received FIN.
+2025-05-28 02:25:39.122 -05:00 [DBG] Connection id "0HNCTG81G65UQ" disconnecting.
+2025-05-28 02:25:39.124 -05:00 [DBG] Connection id "0HNCTG81G65UQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:25:39.134 -05:00 [DBG] Connection id "0HNCTG81G65UQ" stopped.
+2025-05-28 02:26:29.810 -05:00 [DBG] Connection id "0HNCTG81G65US" received FIN.
+2025-05-28 02:26:29.811 -05:00 [DBG] Connection id "0HNCTG81G65US" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:26:29.813 -05:00 [DBG] Connection id "0HNCTG81G65US" disconnecting.
+2025-05-28 02:26:29.814 -05:00 [DBG] Connection id "0HNCTG81G65US" stopped.
+2025-05-28 02:26:51.399 -05:00 [DBG] Connection id "0HNCTG81G65UR" disconnecting.
+2025-05-28 02:26:51.401 -05:00 [DBG] Connection id "0HNCTG81G65UR" stopped.
+2025-05-28 02:26:51.403 -05:00 [DBG] Connection id "0HNCTG81G65UR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:27:58.187 -05:00 [DBG] Connection id "0HNCTG81G65UT" accepted.
+2025-05-28 02:27:58.188 -05:00 [DBG] Connection id "0HNCTG81G65UT" started.
+2025-05-28 02:27:58.190 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 02:27:58.192 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:27:58.193 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:27:58.194 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 02:27:58.195 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:27:58.196 -05:00 [DBG] Connection id "0HNCTG81G65UT" completed keep alive response.
+2025-05-28 02:27:58.198 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 7.3677ms
+2025-05-28 02:27:58.202 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 02:28:00.796 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/1 - null null
+2025-05-28 02:28:00.799 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:00.800 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:28:00.801 -05:00 [DBG] No candidates found for the request path '/api/client/1'
+2025-05-28 02:28:00.803 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:28:00.803 -05:00 [DBG] Connection id "0HNCTG81G65UT" completed keep alive response.
+2025-05-28 02:28:00.804 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/1 - 404 0 null 8.3306ms
+2025-05-28 02:28:00.807 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/1, Response status code: 404
+2025-05-28 02:28:05.199 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/all - null null
+2025-05-28 02:28:05.203 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:05.204 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:28:05.205 -05:00 [DBG] No candidates found for the request path '/api/client/all'
+2025-05-28 02:28:05.207 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:28:05.208 -05:00 [DBG] Connection id "0HNCTG81G65UT" completed keep alive response.
+2025-05-28 02:28:05.209 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/all - 404 0 null 10.5852ms
+2025-05-28 02:28:05.212 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/all, Response status code: 404
+2025-05-28 02:28:10.050 -05:00 [DBG] Connection id "0HNCTG81G65UU" accepted.
+2025-05-28 02:28:10.051 -05:00 [DBG] Connection id "0HNCTG81G65UU" started.
+2025-05-28 02:28:10.052 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:28:10.053 -05:00 [DBG] Connection id "0HNCTG81G65UV" accepted.
+2025-05-28 02:28:10.054 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:10.055 -05:00 [DBG] Connection id "0HNCTG81G65UV" started.
+2025-05-28 02:28:10.057 -05:00 [DBG] Connection id "0HNCTG81G65UU" completed keep alive response.
+2025-05-28 02:28:10.058 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 6.2975ms
+2025-05-28 02:28:10.099 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:28:10.101 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:10.102 -05:00 [DBG] Connection id "0HNCTG81G65UU" completed keep alive response.
+2025-05-28 02:28:10.103 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.9042ms
+2025-05-28 02:28:10.881 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:28:10.883 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:10.884 -05:00 [DBG] Connection id "0HNCTG81G65UU" completed keep alive response.
+2025-05-28 02:28:10.885 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 4.5393ms
+2025-05-28 02:28:10.922 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:28:10.925 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:10.926 -05:00 [DBG] Connection id "0HNCTG81G65UU" completed keep alive response.
+2025-05-28 02:28:10.928 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.4012ms
+2025-05-28 02:28:11.235 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:28:11.237 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:11.238 -05:00 [DBG] Connection id "0HNCTG81G65UU" completed keep alive response.
+2025-05-28 02:28:11.239 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 3.7696ms
+2025-05-28 02:28:11.277 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:28:11.280 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:28:11.281 -05:00 [DBG] Connection id "0HNCTG81G65UU" completed keep alive response.
+2025-05-28 02:28:11.282 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.0734ms
+2025-05-28 02:29:29.957 -05:00 [DBG] Connection id "0HNCTG81G65UV" received FIN.
+2025-05-28 02:29:29.958 -05:00 [DBG] Connection id "0HNCTG81G65UV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:29:29.959 -05:00 [DBG] Connection id "0HNCTG81G65UV" disconnecting.
+2025-05-28 02:29:29.961 -05:00 [DBG] Connection id "0HNCTG81G65UV" stopped.
+2025-05-28 02:29:45.229 -05:00 [DBG] Connection id "0HNCTG81G65UT" received FIN.
+2025-05-28 02:29:45.232 -05:00 [DBG] Connection id "0HNCTG81G65UT" disconnecting.
+2025-05-28 02:29:45.233 -05:00 [DBG] Connection id "0HNCTG81G65UT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:29:45.244 -05:00 [DBG] Connection id "0HNCTG81G65UT" stopped.
+2025-05-28 02:30:22.091 -05:00 [DBG] Connection id "0HNCTG81G65UU" disconnecting.
+2025-05-28 02:30:22.092 -05:00 [DBG] Connection id "0HNCTG81G65UU" stopped.
+2025-05-28 02:30:22.094 -05:00 [DBG] Connection id "0HNCTG81G65UU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:30:34.472 -05:00 [DBG] Connection id "0HNCTG81G65V0" received FIN.
+2025-05-28 02:30:34.473 -05:00 [DBG] Connection id "0HNCTG81G65V0" accepted.
+2025-05-28 02:30:34.475 -05:00 [DBG] Connection id "0HNCTG81G65V0" started.
+2025-05-28 02:30:34.475 -05:00 [DBG] Connection id "0HNCTG81G65V0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:30:34.477 -05:00 [DBG] Connection id "0HNCTG81G65V0" disconnecting.
+2025-05-28 02:30:34.478 -05:00 [DBG] Connection id "0HNCTG81G65V0" stopped.
+2025-05-28 02:33:09.818 -05:00 [DBG] Connection id "0HNCTG81G65V1" received FIN.
+2025-05-28 02:33:09.820 -05:00 [DBG] Connection id "0HNCTG81G65V1" accepted.
+2025-05-28 02:33:09.821 -05:00 [DBG] Connection id "0HNCTG81G65V1" started.
+2025-05-28 02:33:09.823 -05:00 [DBG] Connection id "0HNCTG81G65V1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:33:09.825 -05:00 [DBG] Connection id "0HNCTG81G65V1" disconnecting.
+2025-05-28 02:33:09.826 -05:00 [DBG] Connection id "0HNCTG81G65V1" stopped.
+2025-05-28 02:33:27.596 -05:00 [DBG] Connection id "0HNCTG81G65V2" accepted.
+2025-05-28 02:33:27.597 -05:00 [DBG] Connection id "0HNCTG81G65V2" started.
+2025-05-28 02:33:27.597 -05:00 [DBG] Connection id "0HNCTG81G65V3" accepted.
+2025-05-28 02:33:27.598 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:33:27.599 -05:00 [DBG] Connection id "0HNCTG81G65V3" started.
+2025-05-28 02:33:27.602 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:33:27.604 -05:00 [DBG] Connection id "0HNCTG81G65V2" completed keep alive response.
+2025-05-28 02:33:27.605 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 7.0581ms
+2025-05-28 02:33:27.651 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:33:27.653 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:33:27.655 -05:00 [DBG] Connection id "0HNCTG81G65V2" completed keep alive response.
+2025-05-28 02:33:27.656 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.0905ms
+2025-05-28 02:33:30.340 -05:00 [DBG] Connection id "0HNCTG81G65V4" accepted.
+2025-05-28 02:33:30.341 -05:00 [DBG] Connection id "0HNCTG81G65V4" started.
+2025-05-28 02:33:30.342 -05:00 [DBG] Connection id "0HNCTG81G65V4" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-05-28 02:33:30.346 -05:00 [DBG] Connection id "0HNCTG81G65V4" disconnecting.
+2025-05-28 02:33:30.346 -05:00 [DBG] Connection id "0HNCTG81G65V4" received FIN.
+2025-05-28 02:33:30.347 -05:00 [DBG] Connection id "0HNCTG81G65V4" stopped.
+2025-05-28 02:33:30.347 -05:00 [DBG] Connection id "0HNCTG81G65V5" accepted.
+2025-05-28 02:33:30.350 -05:00 [DBG] Connection id "0HNCTG81G65V4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:33:30.352 -05:00 [DBG] Connection id "0HNCTG81G65V5" started.
+2025-05-28 02:33:30.355 -05:00 [DBG] Connection id "0HNCTG81G65V5" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-05-28 02:33:30.358 -05:00 [DBG] Connection id "0HNCTG81G65V5" disconnecting.
+2025-05-28 02:33:30.359 -05:00 [DBG] Connection id "0HNCTG81G65V5" received FIN.
+2025-05-28 02:33:30.360 -05:00 [DBG] Connection id "0HNCTG81G65V5" stopped.
+2025-05-28 02:33:30.362 -05:00 [DBG] Connection id "0HNCTG81G65V5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:34:30.235 -05:00 [DBG] Connection id "0HNCTG81G65V3" received FIN.
+2025-05-28 02:34:30.238 -05:00 [DBG] Connection id "0HNCTG81G65V3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:34:30.239 -05:00 [DBG] Connection id "0HNCTG81G65V3" disconnecting.
+2025-05-28 02:34:30.240 -05:00 [DBG] Connection id "0HNCTG81G65V3" stopped.
+2025-05-28 02:34:38.936 -05:00 [DBG] Connection id "0HNCTG81G65V6" accepted.
+2025-05-28 02:34:38.937 -05:00 [DBG] Connection id "0HNCTG81G65V6" started.
+2025-05-28 02:34:38.939 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/all - null null
+2025-05-28 02:34:38.941 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:34:38.941 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:34:38.942 -05:00 [DBG] No candidates found for the request path '/api/client/all'
+2025-05-28 02:34:38.943 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:34:38.944 -05:00 [DBG] Connection id "0HNCTG81G65V6" completed keep alive response.
+2025-05-28 02:34:38.945 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/all - 404 0 null 6.2517ms
+2025-05-28 02:34:38.948 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/all, Response status code: 404
+2025-05-28 02:34:40.254 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/1 - null null
+2025-05-28 02:34:40.256 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:34:40.256 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:34:40.257 -05:00 [DBG] No candidates found for the request path '/api/client/1'
+2025-05-28 02:34:40.258 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:34:40.258 -05:00 [DBG] Connection id "0HNCTG81G65V6" completed keep alive response.
+2025-05-28 02:34:40.259 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/1 - 404 0 null 5.3268ms
+2025-05-28 02:34:40.262 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/1, Response status code: 404
+2025-05-28 02:34:41.527 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/all - null null
+2025-05-28 02:34:41.529 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:34:41.530 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:34:41.531 -05:00 [DBG] No candidates found for the request path '/api/client/all'
+2025-05-28 02:34:41.532 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:34:41.532 -05:00 [DBG] Connection id "0HNCTG81G65V6" completed keep alive response.
+2025-05-28 02:34:41.533 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/all - 404 0 null 5.6448ms
+2025-05-28 02:34:41.535 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/all, Response status code: 404
+2025-05-28 02:34:43.008 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 02:34:43.009 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:34:43.010 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:34:43.011 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 02:34:43.012 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:34:43.012 -05:00 [DBG] Connection id "0HNCTG81G65V6" completed keep alive response.
+2025-05-28 02:34:43.013 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 5.4515ms
+2025-05-28 02:34:43.016 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 02:35:38.656 -05:00 [DBG] Connection id "0HNCTG81G65V2" disconnecting.
+2025-05-28 02:35:38.658 -05:00 [DBG] Connection id "0HNCTG81G65V2" stopped.
+2025-05-28 02:35:38.660 -05:00 [DBG] Connection id "0HNCTG81G65V2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:36:23.030 -05:00 [DBG] Connection id "0HNCTG81G65V6" received FIN.
+2025-05-28 02:36:23.032 -05:00 [DBG] Connection id "0HNCTG81G65V6" disconnecting.
+2025-05-28 02:36:23.032 -05:00 [DBG] Connection id "0HNCTG81G65V6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:36:23.045 -05:00 [DBG] Connection id "0HNCTG81G65V6" stopped.
+2025-05-28 02:39:00.684 -05:00 [DBG] Connection id "0HNCTG81G65V7" received FIN.
+2025-05-28 02:39:00.686 -05:00 [DBG] Connection id "0HNCTG81G65V7" accepted.
+2025-05-28 02:39:00.689 -05:00 [DBG] Connection id "0HNCTG81G65V7" started.
+2025-05-28 02:39:00.690 -05:00 [DBG] Connection id "0HNCTG81G65V7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:39:00.693 -05:00 [DBG] Connection id "0HNCTG81G65V7" disconnecting.
+2025-05-28 02:39:00.694 -05:00 [DBG] Connection id "0HNCTG81G65V7" stopped.
+2025-05-28 02:40:28.343 -05:00 [DBG] Connection id "0HNCTG81G65V8" received FIN.
+2025-05-28 02:40:28.345 -05:00 [DBG] Connection id "0HNCTG81G65V8" accepted.
+2025-05-28 02:40:28.347 -05:00 [DBG] Connection id "0HNCTG81G65V8" started.
+2025-05-28 02:40:28.348 -05:00 [DBG] Connection id "0HNCTG81G65V8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:40:28.351 -05:00 [DBG] Connection id "0HNCTG81G65V8" disconnecting.
+2025-05-28 02:40:28.352 -05:00 [DBG] Connection id "0HNCTG81G65V8" stopped.
+2025-05-28 02:40:49.105 -05:00 [DBG] Connection id "0HNCTG81G65V9" accepted.
+2025-05-28 02:40:49.106 -05:00 [DBG] Connection id "0HNCTG81G65V9" started.
+2025-05-28 02:40:49.107 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 02:40:49.109 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:40:49.110 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:40:49.112 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 02:40:49.113 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:40:49.113 -05:00 [DBG] Connection id "0HNCTG81G65V9" completed keep alive response.
+2025-05-28 02:40:49.114 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.8597ms
+2025-05-28 02:40:49.116 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 02:40:50.552 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 02:40:50.555 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:40:50.556 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:40:50.557 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 02:40:50.557 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:40:50.558 -05:00 [DBG] Connection id "0HNCTG81G65V9" completed keep alive response.
+2025-05-28 02:40:50.559 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 7.2283ms
+2025-05-28 02:40:50.561 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 02:42:30.574 -05:00 [DBG] Connection id "0HNCTG81G65V9" received FIN.
+2025-05-28 02:42:30.575 -05:00 [DBG] Connection id "0HNCTG81G65V9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:42:30.577 -05:00 [DBG] Connection id "0HNCTG81G65V9" disconnecting.
+2025-05-28 02:42:30.578 -05:00 [DBG] Connection id "0HNCTG81G65V9" stopped.
+2025-05-28 02:42:35.953 -05:00 [DBG] Connection id "0HNCTG81G65VA" received FIN.
+2025-05-28 02:42:35.954 -05:00 [DBG] Connection id "0HNCTG81G65VA" accepted.
+2025-05-28 02:42:35.956 -05:00 [DBG] Connection id "0HNCTG81G65VA" started.
+2025-05-28 02:42:35.958 -05:00 [DBG] Connection id "0HNCTG81G65VA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:42:35.960 -05:00 [DBG] Connection id "0HNCTG81G65VA" disconnecting.
+2025-05-28 02:42:35.961 -05:00 [DBG] Connection id "0HNCTG81G65VA" stopped.
+2025-05-28 02:44:19.879 -05:00 [DBG] Connection id "0HNCTG81G65VB" received FIN.
+2025-05-28 02:44:19.881 -05:00 [DBG] Connection id "0HNCTG81G65VB" accepted.
+2025-05-28 02:44:19.882 -05:00 [DBG] Connection id "0HNCTG81G65VB" started.
+2025-05-28 02:44:19.883 -05:00 [DBG] Connection id "0HNCTG81G65VB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:44:19.885 -05:00 [DBG] Connection id "0HNCTG81G65VB" disconnecting.
+2025-05-28 02:44:19.886 -05:00 [DBG] Connection id "0HNCTG81G65VB" stopped.
+2025-05-28 02:45:11.006 -05:00 [DBG] Connection id "0HNCTG81G65VC" accepted.
+2025-05-28 02:45:11.007 -05:00 [DBG] Connection id "0HNCTG81G65VC" started.
+2025-05-28 02:45:11.007 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 02:45:11.008 -05:00 [DBG] Connection id "0HNCTG81G65VD" accepted.
+2025-05-28 02:45:11.010 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:45:11.011 -05:00 [DBG] Connection id "0HNCTG81G65VD" started.
+2025-05-28 02:45:11.011 -05:00 [DBG] Connection id "0HNCTG81G65VC" completed keep alive response.
+2025-05-28 02:45:11.013 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 5.3351ms
+2025-05-28 02:45:11.074 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 02:45:11.076 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:45:11.077 -05:00 [DBG] Connection id "0HNCTG81G65VC" completed keep alive response.
+2025-05-28 02:45:11.078 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.3747ms
+2025-05-28 02:45:14.279 -05:00 [DBG] Connection id "0HNCTG81G65VE" accepted.
+2025-05-28 02:45:14.280 -05:00 [DBG] Connection id "0HNCTG81G65VE" started.
+2025-05-28 02:45:14.282 -05:00 [DBG] Connection id "0HNCTG81G65VE" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-05-28 02:45:14.285 -05:00 [DBG] Connection id "0HNCTG81G65VE" disconnecting.
+2025-05-28 02:45:14.286 -05:00 [DBG] Connection id "0HNCTG81G65VE" received FIN.
+2025-05-28 02:45:14.287 -05:00 [DBG] Connection id "0HNCTG81G65VE" stopped.
+2025-05-28 02:45:14.287 -05:00 [DBG] Connection id "0HNCTG81G65VF" accepted.
+2025-05-28 02:45:14.289 -05:00 [DBG] Connection id "0HNCTG81G65VE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:45:14.290 -05:00 [DBG] Connection id "0HNCTG81G65VF" started.
+2025-05-28 02:45:14.295 -05:00 [DBG] Connection id "0HNCTG81G65VF" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-05-28 02:45:14.298 -05:00 [DBG] Connection id "0HNCTG81G65VF" disconnecting.
+2025-05-28 02:45:14.298 -05:00 [DBG] Connection id "0HNCTG81G65VF" received FIN.
+2025-05-28 02:45:14.299 -05:00 [DBG] Connection id "0HNCTG81G65VF" stopped.
+2025-05-28 02:45:14.301 -05:00 [DBG] Connection id "0HNCTG81G65VF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:45:47.715 -05:00 [DBG] Connection id "0HNCTG81G65VG" accepted.
+2025-05-28 02:45:47.719 -05:00 [DBG] Connection id "0HNCTG81G65VG" started.
+2025-05-28 02:45:47.721 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 02:45:47.724 -05:00 [VRB] All hosts are allowed.
+2025-05-28 02:45:47.726 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 02:45:47.728 -05:00 [INF] CORS policy execution successful.
+2025-05-28 02:45:47.730 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 02:45:47.731 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 02:45:47.733 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 02:45:47.735 -05:00 [DBG] Connection id "0HNCTG81G65VG" completed keep alive response.
+2025-05-28 02:45:47.736 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 14.7178ms
+2025-05-28 02:45:47.739 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 02:46:12.884 -05:00 [DBG] Connection id "0HNCTG81G65VD" received FIN.
+2025-05-28 02:46:12.887 -05:00 [DBG] Connection id "0HNCTG81G65VD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:46:12.888 -05:00 [DBG] Connection id "0HNCTG81G65VD" disconnecting.
+2025-05-28 02:46:12.889 -05:00 [DBG] Connection id "0HNCTG81G65VD" stopped.
+2025-05-28 02:47:22.295 -05:00 [DBG] Connection id "0HNCTG81G65VC" disconnecting.
+2025-05-28 02:47:22.298 -05:00 [DBG] Connection id "0HNCTG81G65VC" stopped.
+2025-05-28 02:47:22.299 -05:00 [DBG] Connection id "0HNCTG81G65VC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 02:47:59.591 -05:00 [DBG] Connection id "0HNCTG81G65VG" disconnecting.
+2025-05-28 02:47:59.593 -05:00 [DBG] Connection id "0HNCTG81G65VG" stopped.
+2025-05-28 02:47:59.596 -05:00 [DBG] Connection id "0HNCTG81G65VG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 05:58:40.056 -05:00 [DBG] Connection id "0HNCTG81G65VH" received FIN.
+2025-05-28 05:58:40.058 -05:00 [DBG] Connection id "0HNCTG81G65VH" accepted.
+2025-05-28 05:58:40.059 -05:00 [DBG] Connection id "0HNCTG81G65VH" started.
+2025-05-28 05:58:40.060 -05:00 [DBG] Connection id "0HNCTG81G65VH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 05:58:40.062 -05:00 [DBG] Connection id "0HNCTG81G65VH" disconnecting.
+2025-05-28 05:58:40.063 -05:00 [DBG] Connection id "0HNCTG81G65VH" stopped.
+2025-05-28 06:00:02.193 -05:00 [DBG] Connection id "0HNCTG81G65VI" received FIN.
+2025-05-28 06:00:02.195 -05:00 [DBG] Connection id "0HNCTG81G65VI" accepted.
+2025-05-28 06:00:02.196 -05:00 [DBG] Connection id "0HNCTG81G65VI" started.
+2025-05-28 06:00:02.198 -05:00 [DBG] Connection id "0HNCTG81G65VI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 06:00:02.200 -05:00 [DBG] Connection id "0HNCTG81G65VI" disconnecting.
+2025-05-28 06:00:02.201 -05:00 [DBG] Connection id "0HNCTG81G65VI" stopped.
+2025-05-28 06:00:26.522 -05:00 [DBG] Connection id "0HNCTG81G65VJ" accepted.
+2025-05-28 06:00:26.524 -05:00 [DBG] Connection id "0HNCTG81G65VJ" started.
+2025-05-28 06:00:26.525 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 06:00:26.527 -05:00 [VRB] All hosts are allowed.
+2025-05-28 06:00:26.529 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 06:00:26.530 -05:00 [INF] CORS policy execution successful.
+2025-05-28 06:00:26.531 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 06:00:26.532 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 06:00:26.533 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 06:00:26.534 -05:00 [DBG] Connection id "0HNCTG81G65VJ" completed keep alive response.
+2025-05-28 06:00:26.535 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 10.5238ms
+2025-05-28 06:00:26.538 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 06:00:51.082 -05:00 [DBG] Connection id "0HNCTG81G65VK" accepted.
+2025-05-28 06:00:51.083 -05:00 [DBG] Connection id "0HNCTG81G65VK" started.
+2025-05-28 06:00:51.083 -05:00 [DBG] Connection id "0HNCTG81G65VL" accepted.
+2025-05-28 06:00:51.084 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 06:00:51.086 -05:00 [DBG] Connection id "0HNCTG81G65VL" started.
+2025-05-28 06:00:51.088 -05:00 [VRB] All hosts are allowed.
+2025-05-28 06:00:51.089 -05:00 [DBG] Connection id "0HNCTG81G65VK" completed keep alive response.
+2025-05-28 06:00:51.090 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 5.6958ms
+2025-05-28 06:00:51.208 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 06:00:51.210 -05:00 [VRB] All hosts are allowed.
+2025-05-28 06:00:51.210 -05:00 [DBG] Connection id "0HNCTG81G65VK" completed keep alive response.
+2025-05-28 06:00:51.212 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.7408ms
+2025-05-28 06:00:56.254 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 06:00:56.256 -05:00 [VRB] All hosts are allowed.
+2025-05-28 06:00:56.256 -05:00 [DBG] Connection id "0HNCTG81G65VK" completed keep alive response.
+2025-05-28 06:00:56.257 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.5817ms
+2025-05-28 06:00:56.329 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-05-28 06:00:56.331 -05:00 [VRB] All hosts are allowed.
+2025-05-28 06:00:56.332 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 06:00:56.332 -05:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-05-28 06:00:56.333 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 06:00:56.334 -05:00 [DBG] Connection id "0HNCTG81G65VK" completed keep alive response.
+2025-05-28 06:00:56.335 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 null 5.1907ms
+2025-05-28 06:00:56.336 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404
+2025-05-28 06:02:04.131 -05:00 [DBG] Connection id "0HNCTG81G65VL" received FIN.
+2025-05-28 06:02:04.133 -05:00 [DBG] Connection id "0HNCTG81G65VL" disconnecting.
+2025-05-28 06:02:04.134 -05:00 [DBG] Connection id "0HNCTG81G65VL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 06:02:04.144 -05:00 [DBG] Connection id "0HNCTG81G65VL" stopped.
+2025-05-28 06:02:37.965 -05:00 [DBG] Connection id "0HNCTG81G65VJ" disconnecting.
+2025-05-28 06:02:37.967 -05:00 [DBG] Connection id "0HNCTG81G65VJ" stopped.
+2025-05-28 06:02:37.968 -05:00 [DBG] Connection id "0HNCTG81G65VJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 06:03:07.202 -05:00 [DBG] Connection id "0HNCTG81G65VK" disconnecting.
+2025-05-28 06:03:07.203 -05:00 [DBG] Connection id "0HNCTG81G65VK" stopped.
+2025-05-28 06:03:07.205 -05:00 [DBG] Connection id "0HNCTG81G65VK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 06:06:09.618 -05:00 [DBG] Connection id "0HNCTG81G65VM" received FIN.
+2025-05-28 06:06:09.619 -05:00 [DBG] Connection id "0HNCTG81G65VM" accepted.
+2025-05-28 06:06:09.620 -05:00 [DBG] Connection id "0HNCTG81G65VM" started.
+2025-05-28 06:06:09.623 -05:00 [DBG] Connection id "0HNCTG81G65VM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 06:06:09.626 -05:00 [DBG] Connection id "0HNCTG81G65VM" disconnecting.
+2025-05-28 06:06:09.642 -05:00 [DBG] Connection id "0HNCTG81G65VM" stopped.
+2025-05-28 17:08:53.214 -05:00 [DBG] Connection id "0HNCTG81G65VN" received FIN.
+2025-05-28 17:08:53.217 -05:00 [DBG] Connection id "0HNCTG81G65VN" accepted.
+2025-05-28 17:08:53.218 -05:00 [DBG] Connection id "0HNCTG81G65VN" started.
+2025-05-28 17:08:53.219 -05:00 [DBG] Connection id "0HNCTG81G65VN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:08:53.221 -05:00 [DBG] Connection id "0HNCTG81G65VN" disconnecting.
+2025-05-28 17:08:53.222 -05:00 [DBG] Connection id "0HNCTG81G65VN" stopped.
+2025-05-28 17:09:13.521 -05:00 [DBG] Connection id "0HNCTG81G65VO" accepted.
+2025-05-28 17:09:13.522 -05:00 [DBG] Connection id "0HNCTG81G65VO" started.
+2025-05-28 17:09:13.524 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 17:09:13.528 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:09:13.531 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 17:09:13.532 -05:00 [INF] CORS policy execution successful.
+2025-05-28 17:09:13.533 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 17:09:13.535 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 17:09:13.536 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 17:09:13.537 -05:00 [DBG] Connection id "0HNCTG81G65VO" completed keep alive response.
+2025-05-28 17:09:13.538 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 13.8164ms
+2025-05-28 17:09:13.542 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 17:09:16.721 -05:00 [DBG] Connection id "0HNCTG81G65VP" accepted.
+2025-05-28 17:09:16.721 -05:00 [DBG] Connection id "0HNCTG81G65VP" started.
+2025-05-28 17:09:16.722 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 17:09:16.724 -05:00 [DBG] Connection id "0HNCTG81G65VQ" accepted.
+2025-05-28 17:09:16.725 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:09:16.726 -05:00 [DBG] Connection id "0HNCTG81G65VQ" started.
+2025-05-28 17:09:16.728 -05:00 [DBG] Connection id "0HNCTG81G65VP" completed keep alive response.
+2025-05-28 17:09:16.729 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 6.6187ms
+2025-05-28 17:09:16.779 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 17:09:16.782 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:09:16.784 -05:00 [DBG] Connection id "0HNCTG81G65VP" completed keep alive response.
+2025-05-28 17:09:16.785 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6144ms
+2025-05-28 17:09:50.862 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 17:09:50.865 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:09:50.867 -05:00 [DBG] Connection id "0HNCTG81G65VP" completed keep alive response.
+2025-05-28 17:09:50.868 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.915ms
+2025-05-28 17:10:03.649 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 17:10:03.651 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:10:03.652 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 17:10:03.653 -05:00 [INF] CORS policy execution successful.
+2025-05-28 17:10:03.654 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 17:10:03.655 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 17:10:03.656 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 17:10:03.657 -05:00 [DBG] Connection id "0HNCTG81G65VO" completed keep alive response.
+2025-05-28 17:10:03.658 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 8.8332ms
+2025-05-28 17:10:03.661 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 17:10:15.471 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 17:10:15.474 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:10:15.475 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 17:10:15.475 -05:00 [INF] CORS policy execution successful.
+2025-05-28 17:10:15.476 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 17:10:15.478 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 17:10:15.479 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 17:10:15.480 -05:00 [DBG] Connection id "0HNCTG81G65VO" completed keep alive response.
+2025-05-28 17:10:15.481 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 9.9907ms
+2025-05-28 17:10:15.484 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 17:10:24.129 -05:00 [DBG] Connection id "0HNCTG81G65VQ" received FIN.
+2025-05-28 17:10:24.131 -05:00 [DBG] Connection id "0HNCTG81G65VQ" disconnecting.
+2025-05-28 17:10:24.132 -05:00 [DBG] Connection id "0HNCTG81G65VQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:10:24.139 -05:00 [DBG] Connection id "0HNCTG81G65VQ" stopped.
+2025-05-28 17:10:35.196 -05:00 [DBG] Connection id "0HNCTG81G65VP" received FIN.
+2025-05-28 17:10:35.196 -05:00 [DBG] Connection id "0HNCTG81G65VO" received FIN.
+2025-05-28 17:10:35.197 -05:00 [DBG] Connection id "0HNCTG81G65VP" disconnecting.
+2025-05-28 17:10:35.199 -05:00 [DBG] Connection id "0HNCTG81G65VO" disconnecting.
+2025-05-28 17:10:35.199 -05:00 [DBG] Connection id "0HNCTG81G65VP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:10:35.201 -05:00 [DBG] Connection id "0HNCTG81G65VO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:10:35.217 -05:00 [DBG] Connection id "0HNCTG81G65VO" stopped.
+2025-05-28 17:10:35.217 -05:00 [DBG] Connection id "0HNCTG81G65VP" stopped.
+2025-05-28 17:11:43.912 -05:00 [DBG] Connection id "0HNCTG81G65VR" received FIN.
+2025-05-28 17:11:43.913 -05:00 [DBG] Connection id "0HNCTG81G65VR" accepted.
+2025-05-28 17:11:43.914 -05:00 [DBG] Connection id "0HNCTG81G65VR" started.
+2025-05-28 17:11:43.916 -05:00 [DBG] Connection id "0HNCTG81G65VR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:11:43.918 -05:00 [DBG] Connection id "0HNCTG81G65VR" disconnecting.
+2025-05-28 17:11:43.920 -05:00 [DBG] Connection id "0HNCTG81G65VR" stopped.
+2025-05-28 17:14:06.015 -05:00 [DBG] Connection id "0HNCTG81G65VS" received FIN.
+2025-05-28 17:14:06.017 -05:00 [DBG] Connection id "0HNCTG81G65VS" accepted.
+2025-05-28 17:14:06.018 -05:00 [DBG] Connection id "0HNCTG81G65VS" started.
+2025-05-28 17:14:06.021 -05:00 [DBG] Connection id "0HNCTG81G65VS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:14:06.022 -05:00 [DBG] Connection id "0HNCTG81G65VS" disconnecting.
+2025-05-28 17:14:06.023 -05:00 [DBG] Connection id "0HNCTG81G65VS" stopped.
+2025-05-28 17:14:47.045 -05:00 [DBG] Connection id "0HNCTG81G65VT" accepted.
+2025-05-28 17:14:47.048 -05:00 [DBG] Connection id "0HNCTG81G65VT" started.
+2025-05-28 17:14:47.048 -05:00 [DBG] Connection id "0HNCTG81G65VU" accepted.
+2025-05-28 17:14:47.049 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-05-28 17:14:47.050 -05:00 [DBG] Connection id "0HNCTG81G65VU" started.
+2025-05-28 17:14:47.052 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:14:47.054 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 17:14:47.055 -05:00 [DBG] No candidates found for the request path '/'
+2025-05-28 17:14:47.056 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 17:14:47.057 -05:00 [DBG] Connection id "0HNCTG81G65VT" completed keep alive response.
+2025-05-28 17:14:47.058 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 8.9589ms
+2025-05-28 17:14:47.061 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2025-05-28 17:14:56.787 -05:00 [DBG] Connection id "0HNCTG81G65VV" accepted.
+2025-05-28 17:14:56.788 -05:00 [DBG] Connection id "0HNCTG81G65VV" started.
+2025-05-28 17:14:56.790 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 17:14:56.792 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:14:56.793 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 17:14:56.795 -05:00 [INF] CORS policy execution successful.
+2025-05-28 17:14:56.796 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 17:14:56.797 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 17:14:56.798 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 17:14:56.800 -05:00 [DBG] Connection id "0HNCTG81G65VV" completed keep alive response.
+2025-05-28 17:14:56.803 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 13.7617ms
+2025-05-28 17:14:56.807 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 17:14:59.415 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 17:14:59.417 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:14:59.418 -05:00 [DBG] Connection id "0HNCTG81G65VT" completed keep alive response.
+2025-05-28 17:14:59.419 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 4.0648ms
+2025-05-28 17:14:59.492 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 17:14:59.496 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:14:59.497 -05:00 [DBG] Connection id "0HNCTG81G65VT" completed keep alive response.
+2025-05-28 17:14:59.499 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.9567ms
+2025-05-28 17:15:20.122 -05:00 [DBG] Connection id "0HNCTG81G6600" accepted.
+2025-05-28 17:15:20.123 -05:00 [DBG] Connection id "0HNCTG81G6600" started.
+2025-05-28 17:15:20.124 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 17:15:20.128 -05:00 [VRB] All hosts are allowed.
+2025-05-28 17:15:20.128 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 17:15:20.129 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 17:15:20.130 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 17:15:20.130 -05:00 [DBG] Connection id "0HNCTG81G6600" completed keep alive response.
+2025-05-28 17:15:20.132 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 7.6035ms
+2025-05-28 17:15:20.134 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 17:15:53.133 -05:00 [DBG] Connection id "0HNCTG81G65VU" received FIN.
+2025-05-28 17:15:53.134 -05:00 [DBG] Connection id "0HNCTG81G65VU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:15:53.136 -05:00 [DBG] Connection id "0HNCTG81G65VU" disconnecting.
+2025-05-28 17:15:53.136 -05:00 [DBG] Connection id "0HNCTG81G65VU" stopped.
+2025-05-28 17:17:00.149 -05:00 [DBG] Connection id "0HNCTG81G6600" received FIN.
+2025-05-28 17:17:00.150 -05:00 [DBG] Connection id "0HNCTG81G6600" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:17:00.152 -05:00 [DBG] Connection id "0HNCTG81G6600" disconnecting.
+2025-05-28 17:17:00.153 -05:00 [DBG] Connection id "0HNCTG81G6600" stopped.
+2025-05-28 17:17:07.995 -05:00 [DBG] Connection id "0HNCTG81G65VV" disconnecting.
+2025-05-28 17:17:07.997 -05:00 [DBG] Connection id "0HNCTG81G65VV" stopped.
+2025-05-28 17:17:07.998 -05:00 [DBG] Connection id "0HNCTG81G65VV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 17:17:10.015 -05:00 [DBG] Connection id "0HNCTG81G65VT" disconnecting.
+2025-05-28 17:17:10.017 -05:00 [DBG] Connection id "0HNCTG81G65VT" stopped.
+2025-05-28 17:17:10.019 -05:00 [DBG] Connection id "0HNCTG81G65VT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 18:20:51.165 -05:00 [DBG] Connection id "0HNCTG81G6601" received FIN.
+2025-05-28 18:20:51.167 -05:00 [DBG] Connection id "0HNCTG81G6601" accepted.
+2025-05-28 18:20:51.168 -05:00 [DBG] Connection id "0HNCTG81G6601" started.
+2025-05-28 18:20:51.170 -05:00 [DBG] Connection id "0HNCTG81G6601" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 18:20:51.172 -05:00 [DBG] Connection id "0HNCTG81G6601" disconnecting.
+2025-05-28 18:20:51.173 -05:00 [DBG] Connection id "0HNCTG81G6601" stopped.
+2025-05-28 18:23:23.810 -05:00 [DBG] Connection id "0HNCTG81G6602" received FIN.
+2025-05-28 18:23:23.812 -05:00 [DBG] Connection id "0HNCTG81G6602" accepted.
+2025-05-28 18:23:23.814 -05:00 [DBG] Connection id "0HNCTG81G6602" started.
+2025-05-28 18:23:23.815 -05:00 [DBG] Connection id "0HNCTG81G6602" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 18:23:23.817 -05:00 [DBG] Connection id "0HNCTG81G6602" disconnecting.
+2025-05-28 18:23:23.818 -05:00 [DBG] Connection id "0HNCTG81G6602" stopped.
+2025-05-28 18:24:15.357 -05:00 [DBG] Connection id "0HNCTG81G6603" accepted.
+2025-05-28 18:24:15.358 -05:00 [DBG] Connection id "0HNCTG81G6603" started.
+2025-05-28 18:24:15.359 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 18:24:15.361 -05:00 [VRB] All hosts are allowed.
+2025-05-28 18:24:15.361 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 18:24:15.362 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 18:24:15.363 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 18:24:15.364 -05:00 [DBG] Connection id "0HNCTG81G6603" completed keep alive response.
+2025-05-28 18:24:15.365 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.3233ms
+2025-05-28 18:24:15.368 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 18:25:55.380 -05:00 [DBG] Connection id "0HNCTG81G6603" received FIN.
+2025-05-28 18:25:55.382 -05:00 [DBG] Connection id "0HNCTG81G6603" disconnecting.
+2025-05-28 18:25:55.384 -05:00 [DBG] Connection id "0HNCTG81G6603" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 18:25:55.395 -05:00 [DBG] Connection id "0HNCTG81G6603" stopped.
+2025-05-28 18:27:54.441 -05:00 [DBG] Connection id "0HNCTG81G6604" received FIN.
+2025-05-28 18:27:54.442 -05:00 [DBG] Connection id "0HNCTG81G6604" accepted.
+2025-05-28 18:27:54.444 -05:00 [DBG] Connection id "0HNCTG81G6604" started.
+2025-05-28 18:27:54.446 -05:00 [DBG] Connection id "0HNCTG81G6604" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 18:27:54.449 -05:00 [DBG] Connection id "0HNCTG81G6604" disconnecting.
+2025-05-28 18:27:54.450 -05:00 [DBG] Connection id "0HNCTG81G6604" stopped.
+2025-05-28 18:39:59.043 -05:00 [DBG] Connection id "0HNCTG81G6605" received FIN.
+2025-05-28 18:39:59.045 -05:00 [DBG] Connection id "0HNCTG81G6605" accepted.
+2025-05-28 18:39:59.047 -05:00 [DBG] Connection id "0HNCTG81G6605" started.
+2025-05-28 18:39:59.048 -05:00 [DBG] Connection id "0HNCTG81G6605" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 18:39:59.050 -05:00 [DBG] Connection id "0HNCTG81G6605" disconnecting.
+2025-05-28 18:39:59.051 -05:00 [DBG] Connection id "0HNCTG81G6605" stopped.
+2025-05-28 21:22:22.477 -05:00 [DBG] Connection id "0HNCTG81G6606" accepted.
+2025-05-28 21:22:22.478 -05:00 [DBG] Connection id "0HNCTG81G6606" received FIN.
+2025-05-28 21:22:22.479 -05:00 [DBG] Connection id "0HNCTG81G6606" started.
+2025-05-28 21:22:22.481 -05:00 [DBG] Connection id "0HNCTG81G6606" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 21:22:22.485 -05:00 [DBG] Connection id "0HNCTG81G6606" disconnecting.
+2025-05-28 21:22:22.487 -05:00 [DBG] Connection id "0HNCTG81G6606" stopped.
+2025-05-28 22:10:44.260 -05:00 [DBG] Connection id "0HNCTG81G6607" accepted.
+2025-05-28 22:10:44.261 -05:00 [DBG] Connection id "0HNCTG81G6607" started.
+2025-05-28 22:10:44.262 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 22:10:44.262 -05:00 [DBG] Connection id "0HNCTG81G6608" accepted.
+2025-05-28 22:10:44.265 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:10:44.266 -05:00 [DBG] Connection id "0HNCTG81G6608" started.
+2025-05-28 22:10:44.267 -05:00 [DBG] Connection id "0HNCTG81G6607" completed keep alive response.
+2025-05-28 22:10:44.268 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 6.1029ms
+2025-05-28 22:10:44.315 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 22:10:44.319 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:10:44.321 -05:00 [DBG] Connection id "0HNCTG81G6607" completed keep alive response.
+2025-05-28 22:10:44.323 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.5118ms
+2025-05-28 22:11:56.005 -05:00 [DBG] Connection id "0HNCTG81G6609" received FIN.
+2025-05-28 22:11:56.007 -05:00 [DBG] Connection id "0HNCTG81G6609" accepted.
+2025-05-28 22:11:56.009 -05:00 [DBG] Connection id "0HNCTG81G6609" started.
+2025-05-28 22:11:56.011 -05:00 [DBG] Connection id "0HNCTG81G6609" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 22:11:56.014 -05:00 [DBG] Connection id "0HNCTG81G6609" disconnecting.
+2025-05-28 22:11:56.019 -05:00 [DBG] Connection id "0HNCTG81G6609" stopped.
+2025-05-28 22:11:56.139 -05:00 [DBG] Connection id "0HNCTG81G6608" received FIN.
+2025-05-28 22:11:56.140 -05:00 [DBG] Connection id "0HNCTG81G6608" disconnecting.
+2025-05-28 22:11:56.141 -05:00 [DBG] Connection id "0HNCTG81G6608" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 22:11:56.151 -05:00 [DBG] Connection id "0HNCTG81G6608" stopped.
+2025-05-28 22:12:18.835 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 22:12:18.837 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:12:18.837 -05:00 [DBG] Connection id "0HNCTG81G660A" accepted.
+2025-05-28 22:12:18.838 -05:00 [DBG] Connection id "0HNCTG81G6607" completed keep alive response.
+2025-05-28 22:12:18.839 -05:00 [DBG] Connection id "0HNCTG81G660A" started.
+2025-05-28 22:12:18.840 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.1843ms
+2025-05-28 22:12:20.393 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 22:12:20.396 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:12:20.397 -05:00 [DBG] Connection id "0HNCTG81G6607" completed keep alive response.
+2025-05-28 22:12:20.398 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 4.3884ms
+2025-05-28 22:12:20.465 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 22:12:20.475 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:12:20.476 -05:00 [DBG] Connection id "0HNCTG81G6607" completed keep alive response.
+2025-05-28 22:12:20.477 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.0593ms
+2025-05-28 22:12:21.143 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 22:12:21.148 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:12:21.149 -05:00 [DBG] Connection id "0HNCTG81G6607" completed keep alive response.
+2025-05-28 22:12:21.150 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 7.2518ms
+2025-05-28 22:12:21.183 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 22:12:21.187 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:12:21.188 -05:00 [DBG] Connection id "0HNCTG81G6607" completed keep alive response.
+2025-05-28 22:12:21.190 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.826ms
+2025-05-28 22:12:35.327 -05:00 [DBG] Connection id "0HNCTG81G660B" accepted.
+2025-05-28 22:12:35.328 -05:00 [DBG] Connection id "0HNCTG81G660B" started.
+2025-05-28 22:12:35.329 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 22:12:35.332 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:12:35.333 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 22:12:35.334 -05:00 [INF] CORS policy execution successful.
+2025-05-28 22:12:35.335 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 22:12:35.337 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 22:12:35.338 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 22:12:35.340 -05:00 [DBG] Connection id "0HNCTG81G660B" completed keep alive response.
+2025-05-28 22:12:35.341 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 11.4722ms
+2025-05-28 22:12:35.344 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 22:13:24.132 -05:00 [DBG] Connection id "0HNCTG81G660A" received FIN.
+2025-05-28 22:13:24.133 -05:00 [DBG] Connection id "0HNCTG81G660A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 22:13:24.135 -05:00 [DBG] Connection id "0HNCTG81G660A" disconnecting.
+2025-05-28 22:13:24.135 -05:00 [DBG] Connection id "0HNCTG81G660A" stopped.
+2025-05-28 22:14:33.039 -05:00 [DBG] Connection id "0HNCTG81G6607" disconnecting.
+2025-05-28 22:14:33.041 -05:00 [DBG] Connection id "0HNCTG81G6607" stopped.
+2025-05-28 22:14:33.042 -05:00 [DBG] Connection id "0HNCTG81G6607" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 22:14:47.133 -05:00 [DBG] Connection id "0HNCTG81G660B" disconnecting.
+2025-05-28 22:14:47.135 -05:00 [DBG] Connection id "0HNCTG81G660B" stopped.
+2025-05-28 22:14:47.136 -05:00 [DBG] Connection id "0HNCTG81G660B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 22:14:50.256 -05:00 [DBG] Connection id "0HNCTG81G660C" accepted.
+2025-05-28 22:14:50.257 -05:00 [DBG] Connection id "0HNCTG81G660C" started.
+2025-05-28 22:14:50.258 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 22:14:50.260 -05:00 [VRB] All hosts are allowed.
+2025-05-28 22:14:50.261 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 22:14:50.262 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 22:14:50.263 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 22:14:50.264 -05:00 [DBG] Connection id "0HNCTG81G660C" completed keep alive response.
+2025-05-28 22:14:50.264 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.4663ms
+2025-05-28 22:14:50.267 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 22:16:30.283 -05:00 [DBG] Connection id "0HNCTG81G660C" received FIN.
+2025-05-28 22:16:30.285 -05:00 [DBG] Connection id "0HNCTG81G660C" disconnecting.
+2025-05-28 22:16:30.286 -05:00 [DBG] Connection id "0HNCTG81G660C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 22:16:30.298 -05:00 [DBG] Connection id "0HNCTG81G660C" stopped.
+2025-05-28 23:21:52.875 -05:00 [DBG] Connection id "0HNCTG81G660D" accepted.
+2025-05-28 23:21:52.877 -05:00 [DBG] Connection id "0HNCTG81G660D" started.
+2025-05-28 23:21:52.879 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:21:52.881 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:21:52.882 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:21:52.883 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:21:52.884 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:21:52.885 -05:00 [DBG] Connection id "0HNCTG81G660D" completed keep alive response.
+2025-05-28 23:21:52.885 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.8366ms
+2025-05-28 23:21:52.888 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:21:58.739 -05:00 [DBG] Connection id "0HNCTG81G660E" accepted.
+2025-05-28 23:21:58.739 -05:00 [DBG] Connection id "0HNCTG81G660E" received FIN.
+2025-05-28 23:21:58.742 -05:00 [DBG] Connection id "0HNCTG81G660E" started.
+2025-05-28 23:21:58.744 -05:00 [DBG] Connection id "0HNCTG81G660E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:21:58.746 -05:00 [DBG] Connection id "0HNCTG81G660E" disconnecting.
+2025-05-28 23:21:58.748 -05:00 [DBG] Connection id "0HNCTG81G660E" stopped.
+2025-05-28 23:23:32.909 -05:00 [DBG] Connection id "0HNCTG81G660D" received FIN.
+2025-05-28 23:23:32.911 -05:00 [DBG] Connection id "0HNCTG81G660D" disconnecting.
+2025-05-28 23:23:32.912 -05:00 [DBG] Connection id "0HNCTG81G660D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:23:32.924 -05:00 [DBG] Connection id "0HNCTG81G660D" stopped.
+2025-05-28 23:29:29.392 -05:00 [DBG] Connection id "0HNCTG81G660F" received FIN.
+2025-05-28 23:29:29.394 -05:00 [DBG] Connection id "0HNCTG81G660F" accepted.
+2025-05-28 23:29:29.396 -05:00 [DBG] Connection id "0HNCTG81G660F" started.
+2025-05-28 23:29:29.397 -05:00 [DBG] Connection id "0HNCTG81G660F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:29:29.399 -05:00 [DBG] Connection id "0HNCTG81G660F" disconnecting.
+2025-05-28 23:29:29.400 -05:00 [DBG] Connection id "0HNCTG81G660F" stopped.
+2025-05-28 23:29:56.391 -05:00 [DBG] Connection id "0HNCTG81G660G" accepted.
+2025-05-28 23:29:56.392 -05:00 [DBG] Connection id "0HNCTG81G660G" started.
+2025-05-28 23:29:56.393 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:29:56.395 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:29:56.396 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:29:56.397 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:29:56.398 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:29:56.399 -05:00 [DBG] Connection id "0HNCTG81G660G" completed keep alive response.
+2025-05-28 23:29:56.400 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.4877ms
+2025-05-28 23:29:56.402 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:30:03.498 -05:00 [DBG] Connection id "0HNCTG81G660H" accepted.
+2025-05-28 23:30:03.499 -05:00 [DBG] Connection id "0HNCTG81G660H" started.
+2025-05-28 23:30:03.500 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:30:03.502 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:30:03.503 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 23:30:03.505 -05:00 [INF] CORS policy execution successful.
+2025-05-28 23:30:03.506 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:30:03.507 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:30:03.509 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:30:03.510 -05:00 [DBG] Connection id "0HNCTG81G660H" completed keep alive response.
+2025-05-28 23:30:03.511 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 10.8524ms
+2025-05-28 23:30:03.513 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:30:17.968 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:30:17.973 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:30:17.974 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:30:17.974 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:30:17.975 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:30:17.976 -05:00 [DBG] Connection id "0HNCTG81G660G" completed keep alive response.
+2025-05-28 23:30:17.978 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 9.9018ms
+2025-05-28 23:30:17.981 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:30:32.965 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ping - null null
+2025-05-28 23:30:32.968 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:30:32.969 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:30:32.970 -05:00 [DBG] No candidates found for the request path '/ping'
+2025-05-28 23:30:32.971 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:30:32.971 -05:00 [DBG] Connection id "0HNCTG81G660G" completed keep alive response.
+2025-05-28 23:30:32.972 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ping - 404 0 null 6.9577ms
+2025-05-28 23:30:32.975 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/ping, Response status code: 404
+2025-05-28 23:30:44.873 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client - null null
+2025-05-28 23:30:44.875 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:30:44.877 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:30:44.878 -05:00 [DBG] No candidates found for the request path '/api/client'
+2025-05-28 23:30:44.879 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:30:44.879 -05:00 [DBG] Connection id "0HNCTG81G660G" completed keep alive response.
+2025-05-28 23:30:44.880 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client - 404 0 null 7.8351ms
+2025-05-28 23:30:44.884 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client, Response status code: 404
+2025-05-28 23:32:14.501 -05:00 [DBG] Connection id "0HNCTG81G660H" disconnecting.
+2025-05-28 23:32:14.503 -05:00 [DBG] Connection id "0HNCTG81G660H" stopped.
+2025-05-28 23:32:14.504 -05:00 [DBG] Connection id "0HNCTG81G660H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:32:24.900 -05:00 [DBG] Connection id "0HNCTG81G660G" received FIN.
+2025-05-28 23:32:24.902 -05:00 [DBG] Connection id "0HNCTG81G660G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:32:24.904 -05:00 [DBG] Connection id "0HNCTG81G660G" disconnecting.
+2025-05-28 23:32:24.904 -05:00 [DBG] Connection id "0HNCTG81G660G" stopped.
+2025-05-28 23:43:52.341 -05:00 [DBG] Connection id "0HNCTG81G660I" received FIN.
+2025-05-28 23:43:52.344 -05:00 [DBG] Connection id "0HNCTG81G660I" accepted.
+2025-05-28 23:43:52.346 -05:00 [DBG] Connection id "0HNCTG81G660I" started.
+2025-05-28 23:43:52.348 -05:00 [DBG] Connection id "0HNCTG81G660I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:43:52.350 -05:00 [DBG] Connection id "0HNCTG81G660I" disconnecting.
+2025-05-28 23:43:52.352 -05:00 [DBG] Connection id "0HNCTG81G660I" stopped.
+2025-05-28 23:45:53.317 -05:00 [DBG] Connection id "0HNCTG81G660J" received FIN.
+2025-05-28 23:45:53.319 -05:00 [DBG] Connection id "0HNCTG81G660J" accepted.
+2025-05-28 23:45:53.320 -05:00 [DBG] Connection id "0HNCTG81G660J" started.
+2025-05-28 23:45:53.321 -05:00 [DBG] Connection id "0HNCTG81G660J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:45:53.323 -05:00 [DBG] Connection id "0HNCTG81G660J" disconnecting.
+2025-05-28 23:45:53.324 -05:00 [DBG] Connection id "0HNCTG81G660J" stopped.
+2025-05-28 23:46:03.046 -05:00 [DBG] Connection id "0HNCTG81G660K" accepted.
+2025-05-28 23:46:03.047 -05:00 [DBG] Connection id "0HNCTG81G660K" started.
+2025-05-28 23:46:03.049 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:46:03.051 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:46:03.052 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 23:46:03.053 -05:00 [INF] CORS policy execution successful.
+2025-05-28 23:46:03.054 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:46:03.056 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:46:03.058 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:46:03.059 -05:00 [DBG] Connection id "0HNCTG81G660K" completed keep alive response.
+2025-05-28 23:46:03.060 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 11.6461ms
+2025-05-28 23:46:03.064 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:46:09.926 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:46:09.928 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:46:09.929 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 23:46:09.930 -05:00 [INF] CORS policy execution successful.
+2025-05-28 23:46:09.931 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:46:09.932 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:46:09.933 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:46:09.934 -05:00 [DBG] Connection id "0HNCTG81G660K" completed keep alive response.
+2025-05-28 23:46:09.935 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 9.5651ms
+2025-05-28 23:46:09.940 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:46:11.346 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:46:11.349 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:46:11.350 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 23:46:11.351 -05:00 [INF] CORS policy execution successful.
+2025-05-28 23:46:11.351 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:46:11.353 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:46:11.354 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:46:11.354 -05:00 [DBG] Connection id "0HNCTG81G660K" completed keep alive response.
+2025-05-28 23:46:11.355 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 9.2001ms
+2025-05-28 23:46:11.359 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:46:12.848 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:46:12.851 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:46:12.853 -05:00 [DBG] The request has an origin header: 'http://localhost:8080'.
+2025-05-28 23:46:12.854 -05:00 [INF] CORS policy execution successful.
+2025-05-28 23:46:12.855 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:46:12.857 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:46:12.858 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:46:12.859 -05:00 [DBG] Connection id "0HNCTG81G660K" completed keep alive response.
+2025-05-28 23:46:12.860 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 12.2586ms
+2025-05-28 23:46:12.864 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:46:15.350 -05:00 [DBG] Connection id "0HNCTG81G660L" accepted.
+2025-05-28 23:46:15.351 -05:00 [DBG] Connection id "0HNCTG81G660L" started.
+2025-05-28 23:46:15.351 -05:00 [DBG] Connection id "0HNCTG81G660M" accepted.
+2025-05-28 23:46:15.353 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-05-28 23:46:15.354 -05:00 [DBG] Connection id "0HNCTG81G660M" started.
+2025-05-28 23:46:15.356 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:46:15.360 -05:00 [DBG] Connection id "0HNCTG81G660L" completed keep alive response.
+2025-05-28 23:46:15.362 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 9.4934ms
+2025-05-28 23:46:15.446 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-05-28 23:46:15.449 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:46:15.450 -05:00 [DBG] Connection id "0HNCTG81G660L" completed keep alive response.
+2025-05-28 23:46:15.451 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.6348ms
+2025-05-28 23:47:01.331 -05:00 [DBG] Connection id "0HNCTG81G660N" accepted.
+2025-05-28 23:47:01.333 -05:00 [DBG] Connection id "0HNCTG81G660N" started.
+2025-05-28 23:47:01.334 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client - null null
+2025-05-28 23:47:01.336 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:47:01.338 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:47:01.338 -05:00 [DBG] No candidates found for the request path '/api/client'
+2025-05-28 23:47:01.339 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:47:01.340 -05:00 [DBG] Connection id "0HNCTG81G660N" completed keep alive response.
+2025-05-28 23:47:01.341 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client - 404 0 null 7.3204ms
+2025-05-28 23:47:01.344 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client, Response status code: 404
+2025-05-28 23:47:07.527 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:47:07.529 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:47:07.530 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:47:07.531 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:47:07.532 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:47:07.533 -05:00 [DBG] Connection id "0HNCTG81G660N" completed keep alive response.
+2025-05-28 23:47:07.534 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.4302ms
+2025-05-28 23:47:07.536 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:47:16.438 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:47:16.440 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:47:16.440 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:47:16.441 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:47:16.442 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:47:16.442 -05:00 [DBG] Connection id "0HNCTG81G660N" completed keep alive response.
+2025-05-28 23:47:16.443 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 5.4074ms
+2025-05-28 23:47:16.446 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:47:33.562 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:47:33.564 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:47:33.564 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:47:33.565 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:47:33.566 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:47:33.567 -05:00 [DBG] Connection id "0HNCTG81G660N" completed keep alive response.
+2025-05-28 23:47:33.568 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 5.7295ms
+2025-05-28 23:47:33.570 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:47:49.131 -05:00 [DBG] Connection id "0HNCTG81G660M" received FIN.
+2025-05-28 23:47:49.133 -05:00 [DBG] Connection id "0HNCTG81G660M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:47:49.136 -05:00 [DBG] Connection id "0HNCTG81G660M" disconnecting.
+2025-05-28 23:47:49.138 -05:00 [DBG] Connection id "0HNCTG81G660M" stopped.
+2025-05-28 23:48:23.146 -05:00 [DBG] Connection id "0HNCTG81G660K" disconnecting.
+2025-05-28 23:48:23.147 -05:00 [DBG] Connection id "0HNCTG81G660K" stopped.
+2025-05-28 23:48:23.148 -05:00 [DBG] Connection id "0HNCTG81G660K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:48:27.190 -05:00 [DBG] Connection id "0HNCTG81G660L" disconnecting.
+2025-05-28 23:48:27.192 -05:00 [DBG] Connection id "0HNCTG81G660L" stopped.
+2025-05-28 23:48:27.193 -05:00 [DBG] Connection id "0HNCTG81G660L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:49:11.666 -05:00 [DBG] Connection id "0HNCTG81G660O" received FIN.
+2025-05-28 23:49:11.667 -05:00 [DBG] Connection id "0HNCTG81G660O" accepted.
+2025-05-28 23:49:11.668 -05:00 [DBG] Connection id "0HNCTG81G660O" started.
+2025-05-28 23:49:11.669 -05:00 [DBG] Connection id "0HNCTG81G660O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:49:11.671 -05:00 [DBG] Connection id "0HNCTG81G660O" disconnecting.
+2025-05-28 23:49:11.672 -05:00 [DBG] Connection id "0HNCTG81G660O" stopped.
+2025-05-28 23:49:13.588 -05:00 [DBG] Connection id "0HNCTG81G660N" received FIN.
+2025-05-28 23:49:13.590 -05:00 [DBG] Connection id "0HNCTG81G660N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:49:13.592 -05:00 [DBG] Connection id "0HNCTG81G660N" disconnecting.
+2025-05-28 23:49:13.592 -05:00 [DBG] Connection id "0HNCTG81G660N" stopped.
+2025-05-28 23:50:49.951 -05:00 [DBG] Connection id "0HNCTG81G660P" received FIN.
+2025-05-28 23:50:49.953 -05:00 [DBG] Connection id "0HNCTG81G660P" accepted.
+2025-05-28 23:50:49.954 -05:00 [DBG] Connection id "0HNCTG81G660P" started.
+2025-05-28 23:50:49.956 -05:00 [DBG] Connection id "0HNCTG81G660P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:50:49.958 -05:00 [DBG] Connection id "0HNCTG81G660P" disconnecting.
+2025-05-28 23:50:49.960 -05:00 [DBG] Connection id "0HNCTG81G660P" stopped.
+2025-05-28 23:51:02.631 -05:00 [DBG] Connection id "0HNCTG81G660Q" accepted.
+2025-05-28 23:51:02.632 -05:00 [DBG] Connection id "0HNCTG81G660Q" started.
+2025-05-28 23:51:02.633 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:51:02.636 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:51:02.636 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:51:02.637 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:51:02.638 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:51:02.639 -05:00 [DBG] Connection id "0HNCTG81G660Q" completed keep alive response.
+2025-05-28 23:51:02.640 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.2804ms
+2025-05-28 23:51:02.644 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:51:10.055 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:51:10.057 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:51:10.057 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:51:10.058 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:51:10.059 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:51:10.060 -05:00 [DBG] Connection id "0HNCTG81G660Q" completed keep alive response.
+2025-05-28 23:51:10.061 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.0772ms
+2025-05-28 23:51:10.065 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:51:10.716 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:51:10.718 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:51:10.719 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:51:10.720 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:51:10.721 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:51:10.721 -05:00 [DBG] Connection id "0HNCTG81G660Q" completed keep alive response.
+2025-05-28 23:51:10.722 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 6.522ms
+2025-05-28 23:51:10.725 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:52:50.739 -05:00 [DBG] Connection id "0HNCTG81G660Q" received FIN.
+2025-05-28 23:52:50.740 -05:00 [DBG] Connection id "0HNCTG81G660Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:52:50.742 -05:00 [DBG] Connection id "0HNCTG81G660Q" disconnecting.
+2025-05-28 23:52:50.742 -05:00 [DBG] Connection id "0HNCTG81G660Q" stopped.
+2025-05-28 23:56:32.970 -05:00 [DBG] Connection id "0HNCTG81G660R" accepted.
+2025-05-28 23:56:32.970 -05:00 [DBG] Connection id "0HNCTG81G660R" started.
+2025-05-28 23:56:32.971 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/client/ping - null null
+2025-05-28 23:56:32.973 -05:00 [VRB] All hosts are allowed.
+2025-05-28 23:56:32.974 -05:00 [DBG] The request path  does not match the path filter
+2025-05-28 23:56:32.975 -05:00 [DBG] No candidates found for the request path '/api/client/ping'
+2025-05-28 23:56:32.976 -05:00 [DBG] Request did not match any endpoints
+2025-05-28 23:56:32.976 -05:00 [DBG] Connection id "0HNCTG81G660R" completed keep alive response.
+2025-05-28 23:56:32.977 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/client/ping - 404 0 null 5.8414ms
+2025-05-28 23:56:32.980 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/api/client/ping, Response status code: 404
+2025-05-28 23:58:13.000 -05:00 [DBG] Connection id "0HNCTG81G660R" received FIN.
+2025-05-28 23:58:13.002 -05:00 [DBG] Connection id "0HNCTG81G660R" disconnecting.
+2025-05-28 23:58:13.003 -05:00 [DBG] Connection id "0HNCTG81G660R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-28 23:58:13.015 -05:00 [DBG] Connection id "0HNCTG81G660R" stopped.

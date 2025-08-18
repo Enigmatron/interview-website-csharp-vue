@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client-dashboard", "client-dashboard", "{13A6621F-E8D2-B6BF-3633-1F3CAAD69C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientDashboardAPI", "client-dashboard\ClientDashboardAPI\ClientDashboardAPI.csproj", "{9E55115D-FE1E-52B4-5E18-A20D4885B4CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E55115D-FE1E-52B4-5E18-A20D4885B4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E55115D-FE1E-52B4-5E18-A20D4885B4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E55115D-FE1E-52B4-5E18-A20D4885B4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E55115D-FE1E-52B4-5E18-A20D4885B4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E55115D-FE1E-52B4-5E18-A20D4885B4CA} = {13A6621F-E8D2-B6BF-3633-1F3CAAD69C4A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E84104C-6DCB-4C92-B797-7DA2650D847C}
+	EndGlobalSection
+EndGlobal
